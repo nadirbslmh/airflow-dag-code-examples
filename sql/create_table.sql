@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS posts(
+    id BIGINT PRIMARY KEY,
+    userId BIGINT NOT NULL,
+    title TEXT NOT NULL,
+    body TEXT NOT NULL
+);
